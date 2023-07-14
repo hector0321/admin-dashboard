@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthComponent } from './auth/auth.component';
 import { ShipmentComponent } from './shipment/shipment.component';
+import { UsersComponent } from './users/users.component';
+import { OrdersComponent } from './orders/orders.component';
+import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
-    ShipmentComponent
+    ShipmentComponent,
+    UsersComponent,
+    OrdersComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
